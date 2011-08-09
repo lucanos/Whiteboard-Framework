@@ -205,7 +205,7 @@ nav.oldernewer {
 	
 }
 
-.hide { /* this class is used to hide the skip to content link at the beginning of the document for accessibility */
+.hide { /* this class is used to hid the skip to content link at the beginning of the document for accessibility */
 	display: none;
 }
 .clear {
