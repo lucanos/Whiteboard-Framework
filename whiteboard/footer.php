@@ -16,6 +16,9 @@
     </div><!--.container-->
   </footer></div><!--#footer-->
 </div><!--#main-->
-<?php wp_footer(); /* this is used by many Wordpress features and plugins to work proporly */ ?>
+
+<script src="<?php bloginfo( 'template_url' ); ?>/js/modernizr.min.js">/* Modernizr Minified */</script>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.min.js">/* jQuery Minified */</script>
+<?php wp_footer(); /* this is used by many Wordpress features and plugins to work properly */ ?>
 </body>
 </html>
