@@ -26,7 +26,6 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'rss2_url' ); ?>" />
   <link rel="alternate" type="application/atom+xml" title="<?php bloginfo( 'name' ); ?>" href="<?php bloginfo( 'atom_url' ); ?>" />
-  <?php wp_enqueue_script( 'jquery' ); /* Loads jQuery if it hasn't been loaded already */ ?>
   <?php /* The HTML5 Shim is required for older browsers, mainly older versions IE */ ?>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
